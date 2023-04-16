@@ -1,0 +1,46 @@
+LAYOUT(InputLayout, 492, 96)
+	ITEM(InputDocEdit, inputedit, HSizePosZ(4, 120).VSizePosZ(28, 4))
+	ITEM(SendButton, sendbutton, RightPosZ(4, 112).VSizePosZ(28, 24))
+	ITEM(Upp::SliderCtrl, temperature, RightPosZ(4, 84).TopPosZ(4, 20))
+	ITEM(Upp::SliderCtrl, context, LeftPosZ(48, 132).TopPosZ(4, 20))
+	ITEM(Upp::Label, temperature_info, SetLabel(t_("Temperature")).RightPosZ(88, 68).TopPosZ(4, 19))
+	ITEM(Upp::Label, context_info, SetLabel(t_("Context")).LeftPosZ(4, 44).TopPosZ(4, 20))
+	ITEM(Upp::SliderCtrl, token_limit, HSizePosZ(244, 160).TopPosZ(4, 20))
+	ITEM(Upp::Label, token_limit_info, SetLabel(t_("Token limit")).LeftPosZ(184, 60).TopPosZ(4, 20))
+	ITEM(Upp::Option, stream, SetLabel(t_("Stream answer")).RightPosZ(4, 112).BottomPosZ(4, 20))
+END_LAYOUT
+
+LAYOUT(UsageLayout, 392, 304)
+	ITEM(Upp::ArrayCtrl, array, LeftPosZ(4, 384).TopPosZ(4, 296))
+END_LAYOUT
+
+LAYOUT(PreferencesLayout, 368, 292)
+	ITEM(Upp::Switch, enter_to_send, SetLabel(t_("Enter to send\nCtrl+Enter to send")).LeftPosZ(20, 196).TopPosZ(140, 16))
+	ITEM(Upp::Switch, time_format, SetLabel(t_("24 hour\n12 hour (AM/PM)")).LeftPosZ(20, 196).TopPosZ(228, 16))
+	ITEM(Upp::LabelBox, dv___2, SetLabel(t_("Send with ENTER or newline with ENTER")).HSizePosZ(12, 8).TopPosZ(120, 52))
+	ITEM(Upp::Button, ok, SetLabel(t_("OK")).RightPosZ(84, 72).BottomPosZ(8, 20))
+	ITEM(Upp::Button, cancel, SetLabel(t_("Cancel")).RightPosZ(8, 72).BottomPosZ(8, 20))
+	ITEM(Upp::DropList, sans_serif_font, LeftPosZ(132, 220).TopPosZ(28, 24))
+	ITEM(Upp::Label, dv___6, SetLabel(t_("Sans serif font")).LeftPosZ(20, 112).TopPosZ(28, 24))
+	ITEM(Upp::DropList, serif_font, LeftPosZ(132, 220).TopPosZ(52, 24))
+	ITEM(Upp::Label, dv___8, SetLabel(t_("Serif font")).LeftPosZ(20, 112).TopPosZ(52, 24))
+	ITEM(Upp::DropList, monospace_font, LeftPosZ(132, 220).TopPosZ(76, 24))
+	ITEM(Upp::Label, dv___10, SetLabel(t_("Monospace font")).LeftPosZ(20, 112).TopPosZ(76, 24))
+	ITEM(Upp::LabelBox, dv___11, SetLabel(t_("Fonts")).LeftPosZ(12, 348).TopPosZ(12, 96))
+	ITEM(Upp::Label, dv___12, SetLabel(t_("Default prompt:")).LeftPosZ(12, 96).TopPosZ(180, 20))
+	ITEM(Upp::EditString, default_prompt, HSizePosZ(108, 8).TopPosZ(180, 19))
+	ITEM(Upp::LabelBox, dv___14, SetLabel(t_("Time format")).HSizePosZ(12, 8).TopPosZ(208, 44))
+END_LAYOUT
+
+LAYOUT(AboutLayout, 736, 384)
+	ITEM(Upp::RichTextView, rich, SetFrame(Upp::NullFrame()).LeftPosZ(0, 736).TopPosZ(0, 384))
+END_LAYOUT
+
+LAYOUT(EULALayout, 600, 408)
+	ITEM(Upp::RichTextView, eula, HSizePosZ(4, 4).VSizePosZ(4, 76))
+	ITEM(Upp::Label, dv___1, SetLabel(t_("You must agree to the End-User License Agreement (EULA) before you can use this software. Please read it carefully.")).SetAlign(Upp::ALIGN_CENTER).HSizePosZ(4, 4).BottomPosZ(53, 19))
+	ITEM(Upp::Option, agreeCheck, SetLabel(t_("I agree to the terms in the End-User License Agreement above")).HCenterPosZ(320, 0).BottomPosZ(32, 16))
+	ITEM(Upp::Button, ok, SetLabel(t_("Agree")).HCenterPosZ(60, -130).BottomPosZ(8, 20))
+	ITEM(Upp::Button, cancel, SetLabel(t_("Disagree")).HCenterPosZ(60, 126).BottomPosZ(8, 20))
+END_LAYOUT
+

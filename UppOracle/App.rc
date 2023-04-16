@@ -1,0 +1,39 @@
+// include the needed macros
+#include <winver.h>
+#include <ntdef.h>
+
+#include "appconfig.h"
+
+5555 ICON DISCARDABLE "icon.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     APP_VERSION_ARRAY
+PRODUCTVERSION  APP_VERSION_ARRAY
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+
+FILEFLAGS       APP_FILEFLAGS
+
+FILEOS          VOS_NT
+FILETYPE        VFT_APP
+FILESUBTYPE     VFT2_UNKNOWN
+
+BEGIN
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x0409,1200
+	END
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040904b0"
+		BEGIN
+			VALUE "CompanyName", "Tooler Software\0"
+			VALUE "FileDescription", "Tooler AI.Chat\0"
+			VALUE "FileVersion", APP_VERSION_STRING
+			VALUE "InternalName", "Tooler.AI.Chat\0"
+			VALUE "LegalCopyright", "(C)2023 Tooler Software\0"
+			VALUE "OriginalFilename", UPP_ORACLE_EXE_NAME
+			VALUE "ProductName", "Tooler AI.Chat\0"
+			VALUE "ProductVersion", APP_VERSION_STRING
+		END
+	END
+END

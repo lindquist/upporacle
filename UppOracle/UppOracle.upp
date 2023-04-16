@@ -1,0 +1,26 @@
+uses
+	CtrlLib,
+	OpenAI,
+	OpenIconic,
+	LogWindow;
+
+file
+	App.h,
+	App.cpp,
+	SendButton.cpp,
+	Request.cpp,
+	Saving.cpp,
+	Dialogs.cpp,
+	main.cpp,
+	Preferences.h,
+	Preferences.cpp,
+	Layouts.lay,
+	Images.iml,
+	srcimp.tpp,
+	App.rc,
+	appconfig.h;
+
+mainconfig
+	"Normal" = "GUI",
+	"Portable" = "GUI PORTABLE";
+
