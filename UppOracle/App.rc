@@ -26,13 +26,11 @@ BEGIN
 	BEGIN
 		BLOCK "040904b0"
 		BEGIN
-			VALUE "CompanyName", "Tooler Software\0"
-			VALUE "FileDescription", "Tooler AI.Chat\0"
+			VALUE "FileDescription", "U++ Oracle\0"
 			VALUE "FileVersion", APP_VERSION_STRING
-			VALUE "InternalName", "Tooler.AI.Chat\0"
-			VALUE "LegalCopyright", "(C)2023 Tooler Software\0"
+			VALUE "InternalName", "UppOracle\0"
 			VALUE "OriginalFilename", UPP_ORACLE_EXE_NAME
-			VALUE "ProductName", "Tooler AI.Chat\0"
+			VALUE "ProductName", "U++ Oracle\0"
 			VALUE "ProductVersion", APP_VERSION_STRING
 		END
 	END
