@@ -1,8 +1,7 @@
 uses
 	CtrlLib,
 	OpenAI,
-	OpenIconic,
-	LogWindow;
+	OpenIconic;
 
 file
 	App.h,

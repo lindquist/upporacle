@@ -12,10 +12,6 @@ using namespace Upp;
 
 //----------------------------------------------------------------------------
 
-#include <LogWindow/LogWindow.h>
-
-//----------------------------------------------------------------------------
-
 class InputDocEdit : public DocEdit {
 public:
 	typedef InputDocEdit CLASSNAME;
