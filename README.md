@@ -14,6 +14,9 @@ GPT-3.5 and GPT-4 not currently supported.
   - Token limit
   - Temperature
 
+## Screenshots
+Screenshots can be found in the [wiki](https://github.com/lindquist/upporacle/wiki/Screenshots).
+
 ## Dependencies
 - U++ (https://www.ultimatepp.org/)
 - OpenIconic (https://github.com/lindquist/uppmisc)
