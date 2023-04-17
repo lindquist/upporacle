@@ -37,7 +37,7 @@ void UppOracle::ShowAboutDialog()
 
 	String opensource;
 	opensource << "&[H2 U`+`+ Oracle makes use of open`-source software: [^https://www.ultimatepp.org^ U`+`+].]"
-			      "&Open source license details can be found in the LICENSE.txt file in the application directory.";
+			      "&Open source license details can be found on the [^https://github.com/lindquist/upporacle^ GitHub site].";
 	
 	String icon;
 	icon << "[= &" << QtfImage(384,384, "ImagesImg:icon") << "]";
